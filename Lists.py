@@ -45,3 +45,4 @@ print(list)
 #removes element at index
 list.pop(2)
 print(list)
+list

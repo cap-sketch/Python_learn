@@ -1,3 +1,7 @@
+#python is a programming language
+#      -interpreted,free and open source
+#      -easy to learn,High level language,portable
+#      -developed by Guido van Rossum
 print("Hello world! ")
 print("Anmol pratap")
 print(35)
@@ -19,8 +23,10 @@ n3="how u doing"
 print(n1,n2,n3)
 
 age=23
-old=False
-a=None
+old=False  #boolean
+a=None     #None 
 print(type(age))
 print(type(old))
 print(type(a))
+
+#python is a case sensitive language
