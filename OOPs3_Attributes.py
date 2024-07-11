@@ -9,5 +9,5 @@ class student:
 
 s1=student("anmol",15)
 print(s1.school)      
-print(s1.name)  
+print(s1.name,s1.age)  
 

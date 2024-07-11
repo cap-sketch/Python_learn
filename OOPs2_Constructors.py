@@ -8,6 +8,12 @@ class student:
     #self parameter is a reference to the current instance
     #    of the class, and is used to access variables that 
     #    belongs to the class.
+
+    #default constructor
+    def __init__(self):
+        pass
+    
+    #parameterised constructor
     def __init__(self,fullname):
         print(self)
         print("creating new student in database")

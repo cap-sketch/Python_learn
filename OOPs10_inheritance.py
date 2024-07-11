@@ -1,11 +1,9 @@
-#inheritance
+#inheritance--single,multi-level,multiple
 class car:
     color="black"
-   
     def start(self):
         print("it starts the car")
-    
-    @staticmethod    
+        
     def stop(self):
         print("it stops the car")
 

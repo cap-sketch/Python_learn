@@ -10,7 +10,7 @@ class Game:
         return rand
 
     def takeInput(self):
-        return int(input("Enter any number: "))
+        return int(input("guess the number: "))
 
     def checker(self, n, rando):
         while n != rando:

@@ -11,4 +11,3 @@ print("average of three numbers is : ",average(1,3,5))
                        --user defined function     """
 
 print("Anmol","pratap",sep="",end="")
-print("pratap")

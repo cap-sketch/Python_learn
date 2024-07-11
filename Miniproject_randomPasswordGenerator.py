@@ -1,7 +1,6 @@
 import random
 import string 
 
-
 str=string.ascii_letters+string.digits+string.punctuation
 
 pass_len=12
