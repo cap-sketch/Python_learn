@@ -1,16 +1,19 @@
-f=open("new.txt","r")
-f2=open("new2.txt","w")
+# Open the input file for reading and the output file for writing
+with open("new.txt", "r") as f, open("new2.txt", "w") as f2:
+    content = f.read()  # Read the entire content of the file
 
-digits="0123456789"
-n_alpha=0
-n_digits=0
+    digits = "0123456789"
+    n_alpha = 0
+    n_digits = 0
 
-for char in f:
-    if char.isalpha():
-        n_alpha+=1
-    if char in digits:
-        n_digits+=1
-    
-f2.write(f"letters are {n_alpha}\ndigits are {n_digits}")
-f.close()
-f2.close()
+    # Iterate through each character in the content
+    for char in content:
+        if char.isalpha():
+            n_alpha += 1
+        elif char.isdigit():
+            n_digits += 1
+
+    # Write the counts to the output file
+    f2.write(f"Letters are {n_alpha}\nDigits are {n_digits}")
+
+# Files are automatically closed when exiting the 'with' block
