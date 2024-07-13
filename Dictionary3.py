@@ -11,6 +11,6 @@ print(dic.get("name")) #using get method
 dic.update({"home":"meerut"}) #addding or modifying
 print(dic)
 
-#deleting
+#deleting some data
 del(dic["name"])
 print(dic)

@@ -19,8 +19,8 @@ print(str1[-5:-1])
 # str1[0]='h'   (not allowed)
 # print(str1)  
 
-str4="boy"
-del str4[0]
+str4="boy"  
+# del str4[0]  type error
 del str4     #string deleted
 print(str4)
 

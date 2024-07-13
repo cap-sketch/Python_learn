@@ -1,0 +1,2 @@
+letters are 0
+digits are 0

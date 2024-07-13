@@ -15,5 +15,3 @@ if name in reg_user:
 else:
     print("access denied")
 
-str="hello"
-str[1]="a"
